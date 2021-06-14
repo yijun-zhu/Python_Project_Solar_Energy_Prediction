@@ -1,0 +1,10 @@
+Here are the production data measured by ENEDIS as well as some explanations concerning the data format.
+
+There are 2 files per month corresponding to the 2 injection points.
+The first column gives the start date and time, then the 6 following columns correspond to the average power (in kW)
+measured on each of the 10 minutes slots.
+
+For example, for the line starting with "01/08/2020 02:00", the first column is for the slot 2:00 - 2:10, 
+the second 2:10 - 2:20 and so on.
+
+To obtain the production within each 10-minute slot, we must therefore divide each average power by 6 to obtain kWh.
