@@ -33,5 +33,6 @@ This calls for an accurate forecast and management of energy production based on
   - Random Forest Regression
   - XGBoost
 - Deep Learning:
+  - ANN
   - LSTM
 
