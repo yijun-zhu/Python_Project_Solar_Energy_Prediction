@@ -35,4 +35,5 @@ This calls for an accurate forecast and management of energy production based on
 - Deep Learning:
   - ANN
   - LSTM
+  - CNN+LSTM
 
